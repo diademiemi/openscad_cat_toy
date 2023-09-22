@@ -4,7 +4,7 @@ solid_2 = scale(solid_1,[2,2,2]);
 p_describe(solid_2);
 solid_3 = place(solid_2);
 solid_4 = openface(solid_3,outer_inset_ratio=0.23,inner_inset_ratio=0.08,depth=1.1,fn=[]);
-scale(3.7) show_solid(solid_4);
+scale(4) show_solid(solid_4);
 
 function Z() = 10TruncatedTriakisIcosahedron2();
 function 10TruncatedTriakisIcosahedron2() = 
@@ -2453,8 +2453,8 @@ module icosahedron(edge_length) {
 }
 
 
-translate([0,0,10.2]) rotate([(1/2 * acos(-(sqrt(5) / 3 )) - 90),0,0]) union() {
-  icosahedron(13.5);
+translate([0,0,10.6]) rotate([(1/2 * acos(-(sqrt(5) / 3 )) - 90),0,0]) union() {
+  icosahedron(14);
 }
 
 

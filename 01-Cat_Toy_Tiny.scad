@@ -2454,7 +2454,7 @@ module icosahedron(edge_length) {
 
 
 translate([0,0,4.1]) rotate([(1/2 * acos(-(sqrt(5) / 3 )) - 90),0,0]) union() {
-  icosahedron(5.2);
+  icosahedron(5.4);
 }
 
 
