@@ -15,6 +15,7 @@ jobs:
 
       - name: Install OpenSCAD
         run: |
+          sudo apt update
           sudo apt-get install -y --no-install-recommends openscad
         
       - name: Build STLs for every openscad file
